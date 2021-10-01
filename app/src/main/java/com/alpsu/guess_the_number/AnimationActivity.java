@@ -26,7 +26,7 @@ public class AnimationActivity extends AppCompatActivity {
         txtAnimation = AnimationUtils.loadAnimation(this,R.anim.text_animation);
         imageNumber.setAnimation(imageAnimation);
         txtGuess.setAnimation(txtAnimation);
-        // After 5 seconds main activity will open in the end of timer.
+        // When the time is over(5sec) main activity will open.
         new CountDownTimer(5000, 1000) {
             @Override
             public void onTick(long l) {

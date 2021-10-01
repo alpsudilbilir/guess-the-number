@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">guess-the-number</string>
     <string name="gamename">Guess The Number</string>
+    <string name="start">Start</string>
+    <string name="howtoplay">How To Play</string>
+    <string name="welcome">Welcome To The Guess The Number</string>
 </resources>
